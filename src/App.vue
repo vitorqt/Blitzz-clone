@@ -10,5 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'reloadalt-regular-4', sans-serif;
   }
 </style>
