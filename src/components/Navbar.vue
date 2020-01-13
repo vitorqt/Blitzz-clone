@@ -29,6 +29,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3px;
   background-color: #0e1726;
 
   .leftSide {
@@ -36,13 +37,15 @@ nav {
 
     span:first-child {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
       text-transform: uppercase;
       letter-spacing: 0.3em;
       color: #fff;
     }
     span:last-child {
       margin-left: 50px;
+      letter-spacing: 0.08em;
+      font-size: 14px;
       color: #BBC9E0;
       font-weight: normal;
     }
@@ -56,10 +59,10 @@ nav {
     display: inline-block;
     margin-left: 30px;
 
-    .language { color: #BBC9E0; }
-    .logIn { color: #FF7272 }
+    .language { color: #BBC9E0; font-size: 13px; }
+    .logIn { color: #FF7272; font-size: 15px; }
     .downloadApp {
-      padding: 10px;
+      padding: 10px 20px;
       border-radius: 5px;
       background-color: #FF5859;
       color: #E5EBEF;
