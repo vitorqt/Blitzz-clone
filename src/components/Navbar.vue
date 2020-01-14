@@ -1,7 +1,9 @@
 <template>
   <nav>
     <div class="leftSide">
-      <span>Blitz</span>
+      <div class="logoNavbar">
+        <img src="@/assets/img/logo-navbar.png" alt="logo-navbar">
+      </div>
       <span>Escolha um Jogo</span>
     </div>
     <div class="rightSide">
@@ -33,16 +35,11 @@ nav {
   background-color: #0e1726;
 
   .leftSide {
+    display: flex;
+    align-items: center;
     margin-left: 30px;
 
-    span:first-child {
-      font-weight: bold;
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 0.3em;
-      color: #fff;
-    }
-    span:last-child {
+    span {
       margin-left: 50px;
       letter-spacing: 0.08em;
       font-size: 14px;
