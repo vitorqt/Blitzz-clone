@@ -59,6 +59,8 @@ nav {
     .language { color: #BBC9E0; font-size: 13px; }
     .logIn { color: #FF7272; font-size: 15px; }
     .downloadApp {
+      font-size: 14px;
+      font-weight: bold;
       padding: 10px 20px;
       border-radius: 5px;
       background-color: #FF5859;
